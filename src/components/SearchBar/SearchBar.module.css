@@ -1,0 +1,41 @@
+.search {
+    background-color: #242e83;
+    padding: 20px;
+}
+
+.form {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border-color: white;
+    padding: 10px;
+    width: 320px;
+    height: 100%;
+    border-style: dashed;
+}
+
+.btn {
+    border: none;
+    width: 40px;
+    height: 40px;
+    line-height: 0;
+    background-color: white;
+    transition: background-color 250ms linear;
+}
+
+.icon {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:focus,
+.btn:hover {
+    background-color: antiquewhite;
+}
